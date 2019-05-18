@@ -69,7 +69,6 @@ api.Notification = (data, message) => {
             fields: data.discord,
             timestamp: new Date(),
             footer: {
-                icon_url: client.user.avatarURL,
                 text: "Developed by Lulaba#7436"
             }
         }

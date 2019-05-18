@@ -71,7 +71,7 @@ api.Notification = (data, message) => {
             timestamp: new Date(),
             footer: {
                 icon_url: client.user.avatarURL,
-                text: "@Another_Cop"
+                text: "Developed by Lulaba#7436"
             }
         }
     });

@@ -59,8 +59,7 @@ api.Notification = (data, message) => {
         embed: {
             color: 0x43ab49,
             author: {
-                name: "StockX Bot",
-                icon_url: "https://pbs.twimg.com/profile_images/880500140984946689/YLtBaLZS_400x400.jpg"
+                name: "StockX Bot"
             },
             title: data.product.name,
             url: data.product.url,
